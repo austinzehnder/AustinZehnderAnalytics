@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZehnderAnalysis.com - AI-powered Real Estate Pricing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #666;
+        }
+
+        .hero {
+            background-color: #f7f7f7;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #666;
+        }
+
+        .features {
+            padding: 4rem 2rem;
+        }
+
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .features li {
+            background-color: #f7f7f7;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .features li:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">ZehnderAnalysis.com</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>"AI-powered real estate pricing, Human-confirmed"</h1>
+            <p>Get an unbiased, accurate estimate of the sale or rental price of a residential real estate asset, provided by a real human within 24 hours.</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Provide sales and rental price estimates in a thoughtful and easy-to-read 1-page PDF report</li>
+                <li>Monthly subscription email with area/region trends and forecasts</li>
+                <li>Price guarantee - if home rents or sells for less than 10% of our estimate, your report is refunded</li>
+            </ul>
+        </section>
+
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        
+          <label for="address">Address:</label>
+          <input type="text" id="address" required>
+        
+          <label for="notes">Notes (optional):</label>
+          <textarea id="notes"></textarea>
+        
+          <button type="submit">Submit</button>
+        </form>
+    </main>
+  
+    <footer>
+        <p>&copy; ZehnderAnalysis.com</p>
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
