@@ -1,132 +1,109 @@
 /* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
 
-header {
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+        header {
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-}
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
 
-nav ul li {
-    margin-left: 1rem;
-}
+        nav ul li {
+            margin-left: 1rem;
+        }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
-}
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
 
-nav ul li a:hover {
-    color: #666;
-}
+        nav ul li a:hover {
+            color: #666;
+        }
 
-.hero {
-    background-color: #f7f7f7;
-    padding: 4rem 2rem;
-    text-align: center;
-}
+        .hero {
+            background-color: #f7f7f7;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
 
-.cta-btn {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
+        .cta-btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
 
-.cta-btn:hover {
-    background-color: #666;
-}
+        .cta-btn:hover {
+            background-color: #666;
+        }
 
-.features {
-    padding: 4rem 2rem;
-}
+        .features {
+            padding: 4rem 2rem;
+        }
 
-.features h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
 
-.features ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
+        .features ul {
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
 
-.features li {
-    background-color: #f7f7f7;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
+        .features li {
+            background-color: #f7f7f7;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
 
-.features li:hover {
-    transform: translateY(-5px);
-}
+        .features li:hover {
+            transform: translateY(-5px);
+        }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-/* Add some spacing between form elements */
-.hero form label,
-.hero form input,
-.hero form textarea {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-/* Style the form inputs */
-.hero form input,
-.hero form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-    max-width: 400px;
-}
-
-/* Style the submit button */
-.hero form .cta-btn {
-    margin-top: 1rem;
-}
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
