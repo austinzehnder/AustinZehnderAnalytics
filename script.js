@@ -25,12 +25,27 @@ form.addEventListener('submit', function(event) {
     return;
   }
 
-  // If all validations pass, you can proceed with form submission
-  // or perform any other desired action with the form data
-  console.log('Email:', emailInput);
-  console.log('Address:', addressInput);
-  console.log('Notes:', notesInput);
+  // If all validations pass, send the form data to the server
+  const formData = {
+    email: emailInput,
+    address: addressInput,
+    notes: notesInput
+  };
 
-  // Reset the form
-  form.reset();
+  fetch('/submit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+    .then(response => response.text())
+    .then(data => {
+      console.log(data); // Handle the server response
+      // Reset the form
+      form.reset();
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
 });
